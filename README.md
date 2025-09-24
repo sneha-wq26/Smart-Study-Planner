@@ -3,14 +3,23 @@ Smart Study Planner is a web-based study organizer designed to help students sta
 
 🔑 Features
 Study Scheduler – Plan and organize study sessions by date and time.
+
 Task Tracker – Add, edit, and mark tasks as completed.
+
 Smart Reminders – Never miss deadlines with timely alerts.
+
 Visual Timeline / Calendar View – See tasks in a timeline or calendar format for better planning.
+
 Local Progress Saving – Saves tasks and progress directly on the user’s device (no login required).
+
 Progress Insights – Track completed vs. pending tasks to measure productivity.
+
 Smart Study Method – Guided approach to Get Organized, Stay Ahead, Work Effectively.
+
 Responsive Design – Works smoothly on desktop, tablet, and mobile.
+
 Parent-Friendly – Enables parents to monitor children’s progress (optional).
+
 Future-Ready – Can be extended with cloud sync, AI-based study suggestions, and offline mode.
 
 🎯 Why Smart Study Planner?
