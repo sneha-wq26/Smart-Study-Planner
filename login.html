@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In | Smart Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== LOGIN FORM ===== -->
+  <section class="auth-section">
+    <div class="auth-container">
+      <h2>Welcome Back</h2>
+      <p class="subtitle">Log in to continue organizing your study journey.</p>
+
+      <form class="auth-form">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="password-field">
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <span class="toggle-password">👁</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn primary full-width">Log In</button>
+      </form>
+
+      <p class="auth-switch">Don’t have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="images/logo.webp" alt="Smart Study Planner Logo">
+        <span>Smart Study Planner</span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#method">Method</a></li>
+          <li><a href="#premium">Premium</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+  <a href="signup.html" class="btn primary">Sign Up</a>
+  <a href="login.html" class="btn outline">Log In</a>
+</div>
+
+
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1>The Ultimate Study Organizer</h1>
+        <p>Smart Study Planner helps you beat procrastination, stay ahead of deadlines, and find balance in your study life.</p>
+        <div class="hero-buttons">
+  <a href="signup.html" class="btn primary">Get Started for Free</a>
+</div>
+
+        
+      </div>
+      <div class="hero-image">
+        <img src="images/school-girl.jpg" alt="Student using Smart Study Planner">
+      </div>
+    </div>
+  </section>
+  <!-- ===== Features Section ===== -->
+<section class="features" id="features">
+  <div class="container">
+    <h2 class="section-title">Smart Features for Smarter Studies</h2>
+    <p class="section-subtitle">Everything you need to organize, track, and achieve your study goals.</p>
+    
+    <div class="features-grid">
+      <!-- Feature 1 -->
+      <div class="feature-card">
+        <h3>📅 Study Scheduler</h3>
+        <p>Easily plan your daily, weekly, and monthly study schedules to stay on track.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-card">
+        <h3>📝 Task Tracker</h3>
+        <p>Create and manage academic tasks with progress updates and status indicators.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-card">
+        <h3>⏰ Smart Reminders</h3>
+        <p>Get notified of deadlines and upcoming study sessions so nothing is missed.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-card">
+        <h3>📊 Visual Timelines</h3>
+        <p>See your entire study plan in a clear, visual timeline to boost motivation.</p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="feature-card">
+        <h3>💾 Local Progress Saving</h3>
+        <p>Save tasks and progress directly on your device using local storage for quick access.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Task Manager Section ===== -->
+<!-- ===== Task Manager Section ===== -->
+<section class="task-manager" id="tasks">
+  <div class="container">
+    <h2 class="section-title">🚀Try It Now: Add Your Study Tasks</h2>
+    <p class="section-subtitle">Quickly create, save, and view your study tasks. All saved locally on your device.</p>
+
+    <!-- Task Input Form -->
+    <form id="taskForm" class="task-form">
+      <input type="text" id="taskTitle" placeholder="Enter your task (e.g., Finish Math Homework)" required>
+      <input type="date" id="taskDeadline" required>
+      <button type="submit" class="btn primary">Add Task</button>
+    </form>
+
+    <!-- Progress Tracker -->
+    <div class="progress-container">
+      <p id="progressText">0 of 0 tasks completed</p>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList" class="task-list"></ul>
+    <!-- Calendar / Timeline View -->
+<div class="calendar-view">
+  <h3>📅 Timeline of Tasks</h3>
+  <ul id="calendarList" class="calendar-list"></ul>
+</div>
+
+  </div>
+</section>
+
+
+
+  <!-- ===== METHOD ===== -->
+  <!-- ===== METHOD ===== -->
+<section class="method" id="method">
+  <div class="container">
+    <h2>The Smart Study Method</h2>
+    <div class="method-grid">
+      
+      <!-- Image of smartphone -->
+      <div class="method-img">
+        <img src="images/smartphone.jpg" alt="Smartphone app demo">
+      </div>
+      
+      <!-- Step explanations -->
+      <div class="method-steps">
+        <div class="step">
+          <h3>1. Get Organized</h3>
+          <p>Create a personalized plan with tasks, subjects, and reminders right on your smartphone.</p>
+        </div>
+        <div class="step">
+          <h3>2. Stay Ahead</h3>
+          <p>Visualize your deadlines and study flow with clear timelines and smart notifications.</p>
+        </div>
+        <div class="step">
+          <h3>3. Work Effectively</h3>
+          <p>Track progress and adapt schedules with real-time analytics and focus tools.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== FEATURES ===== -->
+  <!-- ===== CONTROL SECTION ===== -->
+<section class="control" id="control">
+  <div class="container">
+    <h2>Goodbye Chaos. Hello Control.</h2>
+    <p class="subtitle">
+      Staying organized as a student isn’t easy. Missed deadlines, procrastination, 
+      and scattered notes create stress. Smart Study Planner gives you the structure, 
+      clarity, and focus you need to succeed every single day.
+    </p>
+
+    <div class="control-grid">
+      <!-- Left Column - Problems -->
+      <div class="control-box problems">
+        <h3>Without Smart Study Planner 🚨</h3>
+        <ul>
+          <li>❌ Missed deadlines and forgotten assignments</li>
+          <li>❌ Procrastination and lack of motivation</li>
+          <li>❌ Overwhelmed with unorganized notes</li>
+          <li>❌ Juggling multiple subjects without clarity</li>
+          <li>❌ Stress from exams and poor time management</li>
+          <li>❌ Hard to balance school and personal life</li>
+          <li>❌ Feeling lost without a proper roadmap</li>
+        </ul>
+      </div>
+
+      <!-- Right Column - Solutions -->
+      <div class="control-box solutions">
+        <h3>With Smart Study Planner 🌟</h3>
+        <ul>
+          <li>✅ Clear study schedules with smart reminders</li>
+          <li>✅ Organized tasks and subject-wise planning</li>
+          <li>✅ Progress tracking and motivational streaks</li>
+          <li>✅ Calendar view for deadlines and exams</li>
+          <li>✅ Study tips and productivity insights</li>
+          <li>✅ Easy sync across devices for access anywhere</li>
+          <li>✅ Balance academic goals with personal growth</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== FOR SCHOOLS ===== -->
+<!-- ===== BUILT FOR STUDENTS AND PARENTS SECTION ===== -->
+<section class="built" id="built">
+  <div class="container built-grid">
+    <!-- Left Side Image -->
+    <div class="built-image">
+      <img src="images/parent-child.jpg" alt="Parent and Child using Smart Study Planner">
+    </div>
+
+    <!-- Right Side Content -->
+    <div class="built-content">
+      <h2>Built for Students and their Parents</h2>
+      <p class="subtitle">
+        Smart Study Planner isn’t just for students—it’s designed for parents too. 
+        We make it easy for families to stay connected, track progress, and encourage 
+        healthier study habits. Together, you can create a balance between learning, 
+        guidance, and personal growth.
+      </p>
+
+      <ul class="built-list">
+        <li>👩‍🎓 Students: Stay organized with clear study plans & reminders.</li>
+        <li>👨‍👩‍👦 Parents: Monitor progress and support learning at home.</li>
+        <li>📅 Shared calendars: Never miss important deadlines or exams.</li>
+        <li>🌟 Insights: Get personalized tips for boosting productivity.</li>
+        <li>📊 Progress charts: Visualize achievements and growth together.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== PREMIUM ===== -->
+  <!-- ===== PREMIUM FEATURES SECTION ===== -->
+<section class="premium" id="premium">
+  <div class="container premium-grid">
+    <!-- Left Side Image -->
+    <div class="premium-image">
+      <img src="images/smart-student.jpeg" alt="Premium Features Preview">
+    </div>
+
+    <!-- Right Side Content -->
+    <div class="premium-content">
+      <h2>Premium Features for Smart Students</h2>
+      <p class="subtitle">
+        Unlock the full power of Smart Study Planner with premium tools 
+        designed to maximize focus, productivity, and results. 
+        These advanced features are built to give students a smarter edge.
+      </p>
+
+      <ul class="premium-list">
+        <li>⏳ <strong>Reminders that never fail:</strong> Get instant notifications so you never miss a study session.</li>
+        <li>📂 <strong>Subject-wise organization:</strong> Keep tasks, notes, and deadlines neatly sorted.</li>
+        <li>📊 <strong>Progress analytics:</strong> Track achievements and spot areas for improvement.</li>
+        <li>🌐 <strong>Offline access:</strong> Study and plan anywhere, even without internet.</li>
+        <li>🎯 <strong>Focus Mode:</strong> Eliminate distractions and stay locked on your goals.</li>
+        <li>🔒 <strong>Data Sync & Security:</strong> Safely sync your schedules across multiple devices.</li>
+      </ul>
+
+      <a href="#" class="btn btn-primary">Get Premium</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== JOIN COMMUNITY SECTION ===== -->
+<section class="community" id="community">
+  <div class="container community-grid">
+    <!-- Left Text -->
+    <div class="community-content">
+      <h2>Join a Global Community</h2>
+      <p class="subtitle">
+        With thousands of students and parents already using Smart Study Planner, 
+        you’re not just planning—you’re connecting.  
+        Share ideas, celebrate milestones, and grow in a network that supports your journey.
+      </p>
+      <ul class="community-list">
+        <li>🌍 Connect with students across the globe</li>
+        <li>🤝 Collaborate and share study strategies</li>
+        <li>🎓 Be inspired by achievers and mentors</li>
+        <li>💬 Access discussion forums & learning groups</li>
+      </ul>
+      <a href="#" class="btn btn-primary">Join the Community</a>
+    </div>
+
+    <!-- Right Image -->
+    <div class="community-image">
+      <img src="images/global.jpg" alt="Student community">
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p class="subtitle">
+      Have questions? We’ve got clear answers to help you get the most out of Smart Study Planner.
+    </p>
+    
+    <div class="faq-box">
+      <button class="faq-question">What is Smart Study Planner?</button>
+      <div class="faq-answer">
+        <p>It’s a digital planner designed for students and parents to organize tasks, track goals, and boost productivity.</p>
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <button class="faq-question">Is it free to use?</button>
+      <div class="faq-answer">
+        <p>Yes! The basic version is free. Premium features are available for students who want advanced tools.</p>
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <button class="faq-question">Can parents monitor student progress?</button>
+      <div class="faq-answer">
+        <p>Absolutely. Parents can view progress reports, set goals together, and encourage healthier study habits.</p>
+      </div>
+    </div>
+
+    <div class="faq-box">
+      <button class="faq-question">Does it work offline?</button>
+      <div class="faq-answer">
+        <p>Yes, Smart Study Planner offers offline access so you can plan and track even without internet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Smart Study Planner | Complete Student Productivity Solution</p>
+      <div class="app-stores">
+        <img src="images/appstore.jpeg" alt="App Store">
+        <img src="images/googleplay.png" alt="Google Play">
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
