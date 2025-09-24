@@ -22,7 +22,5 @@ Simple, clean, and responsive design that works on all devices.
 🛠️ Built With
 
 HTML5
-
 CSS3
-
 JavaScript (Vanilla JS)
