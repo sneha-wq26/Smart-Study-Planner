@@ -12,7 +12,7 @@ body { font-family:"Poppins", sans-serif; color:var(--navy); background:var(--be
 .container { width:90%; margin:0 auto; max-width:1200px; }
 
 /* Header */
-.header { background:var(--beige); padding:15px 0; position:sticky; top:0; z-index:1000; }
+.header { background:var(--yellow); padding:15px 0; position:sticky; top:0; z-index:1000; }
 .nav-container { display:flex; align-items:center; justify-content:space-between; }
 .logo { display:flex; align-items:center; font-weight:700; color:var(--navy); font-size:18px; }
 .logo img { height:40px; margin-right:8px; }
@@ -43,7 +43,7 @@ section h2 { text-align:center; margin-bottom:40px; color:var(--navy); }
 
 /* Smart Study Method Section */
 .method {
-  background: #fff;
+  background: #3907d;
 }
 
 .method-grid {
@@ -813,3 +813,4 @@ section h2 { text-align:center; margin-bottom:40px; color:var(--navy); }
   color: var(--navy);
   font-weight: 500;
 }
+
